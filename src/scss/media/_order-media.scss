@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+// tab
+  .order {
+    padding-bottom: 60px;
+    .title {
+      font-size: 28px;
+    }
+    &__form {
+      width: 90%;
+      margin: 35px auto 0 auto;
+      padding: 0;
+      flex-direction: column;
+      img {
+        display: none;
+      }
+      .btn {
+        margin-top: 14px;
+        width: 280px;
+        height: 52px;
+      }
+      .divider {
+        margin-top: 10px;
+      }
+    }
+    &__input {
+      margin: 14px;
+    }
+  }
+}

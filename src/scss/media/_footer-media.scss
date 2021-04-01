@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+  // tab landscape?
+  
+    .footer {
+        .container {
+          justify-content: space-around;
+      }
+    }
+  }
+@media (max-width: 575px) {
+// old cellphones
+  .footer {
+    padding-bottom: 39px;
+    .pepper {
+      display: none;
+    }
+    .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__wrapper {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .link {
+      margin-top: 14px;
+      padding: 0 15px;
+    }
+    .call {
+      text-align: center;
+      margin-top: 35px;
+    }
+  }
+}

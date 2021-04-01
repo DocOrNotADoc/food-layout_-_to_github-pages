@@ -1,0 +1,50 @@
+@media (max-width: 991px) {
+  // tab
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 45px;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 25px;
+    z-index: 7;
+    span {
+      display: block;
+      height: 4px;
+      width: 100%;
+      background-color: #000;
+      margin-bottom: 7px;
+      transition: 0.5s all;
+    }
+    &_active {
+      margin-top: 3px;
+      span {
+        // margin-bottom: -20px;
+        &:nth-child(1) {
+          width: 36px;
+          transform: translateY(6px) rotate(-45deg);
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          width: 36px;
+          transform: translateY(-5px) rotate(45deg);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+// old cellphones ???
+  .hamburger {
+    left: auto;
+    right: 20px;
+    top: 31px;
+    span {
+      height: 3px;
+      margin-bottom: 8px;
+    }
+  }
+}

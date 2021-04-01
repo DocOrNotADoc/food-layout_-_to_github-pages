@@ -1,0 +1,111 @@
+@media (max-width: 1200px) {
+  // tab landscape?
+  .offer {
+    .container {
+      justify-content: space-around;
+    }
+    .bgc_y {
+      width: 720px;
+    }
+    &__text {
+      // width: 570px;
+      width: 83%;
+    }
+    &__slider-block {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    &__advantages {
+      display: flex;
+      justify-content: space-around;
+      width: 70%;
+      &-text {
+        &_wrapper {
+          display: block;
+          padding: 20px;
+          text-align: center;
+          h2 {
+            text-align: center;
+          }
+        }
+      }
+    }
+    &__slider {
+      &-counter {
+        margin-top: -12px;
+        margin-right: -90px;
+      }
+    }
+  } 
+}
+@media (max-width: 991px) {
+// tab
+  .offer {
+    .container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .bgc_y {
+      width: 100%;
+      height: 70%;
+    }
+    &__text {
+      margin: auto;
+      padding: 30px;
+      text-align: center;
+    }
+    &__action {
+      justify-content: center;
+      margin: 35px 0 -20px 0;
+    }
+
+    &__advantages {
+      margin-top: 5px;
+      width: 85%;
+    }
+    &__slider {
+      &-counter {
+        margin-top: 0x;
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+  .offer {
+    padding-bottom: 112px;
+    .bgc_y {
+      height: 93%;
+    }
+    &__slider {
+      // ~ to 404px - 390/234 slider (?)
+      margin: 50px auto 0 auto;
+      width: 100%;
+      &-counter {
+        margin-right: 5px;
+      }
+    }
+    &__slide {
+      $width: 100%;
+      width: $width;
+      $height: ($width * 0,6);
+      height: $height;
+      // width: 390px;
+      // height: 234px;
+    }
+    &__text {
+      width: 95%;
+    }
+    &__advantages {
+      flex-direction: column;
+      justify-content: center;
+      &-text {
+        &_wrapper {
+          padding: 0 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@media (max-width: 1200px) {
+  // tab landscape?
+  .promotion {
+    padding-bottom: 80px;
+    .bgc_y {
+      display: none;
+    }
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__text {
+      padding-top: 34px;
+      text-align: center;
+      width: 100%;
+      background-color: rgba(243, 255, 222, 0.45);
+    }
+    &__descr {
+      width: 60%;
+      margin: 22px auto;
+      font-size: 19px;
+      span {
+        font-size: 24px;
+      }
+    }
+    &__timer {
+      .title {
+        margin-top: 40px;
+        text-align: center;
+      }
+      .timer {
+        padding-left: 0;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+// tab
+.promotion {
+  &__timer {
+    width: 76%;
+    .title {
+      margin-top: 45px;
+    }
+  }
+  .timer {
+    margin-top: 40px;
+  }
+}
+}
+@media (max-width: 767px) {
+// cellphones
+  
+}
+@media (max-width: 575px) {
+// old cellphones
+  .promotion {
+    &__text {
+      .title {
+        font-weight: 700;
+      }
+    }
+    &__timer {
+      width: 90%;
+    }
+    &__descr {
+      width: 82%;
+      margin-top: 27px;
+    }
+    .timer {
+      &__block {
+        width: 79px;
+        height: 103px;
+        span {
+          margin-top: 16px;
+          margin-bottom: 0;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}

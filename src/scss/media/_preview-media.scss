@@ -1,0 +1,118 @@
+@media (max-width: 1200px) {
+  // tab landscape?
+  .bgc_blue {
+    height: 730px;
+  }
+  .preview {
+    padding-top: 0;
+    &__life {
+      margin-left: 105px;
+      margin-bottom: 50px;
+    }
+  }
+  .tabcontainer {
+    width: 91%;
+  }
+  .tabcontent {
+    &__descr {
+      top: 310px;
+      right: -187px;
+      width: 600px;
+      height: 312px;
+    }
+  }
+  .tabheader {
+    min-width: 265px;
+  }
+
+}
+@media (max-width: 991px) {
+  // tab
+  .bgc_blue {
+    height: 1147px;
+  }
+  .preview {
+    margin-bottom: 110px;
+    &__life {
+      width: 18%;
+      margin-top: 90px;
+      margin-left: 20px;
+      text-align: center;
+      line-height: 40px;
+    }
+  }
+    .tabcontainer {
+      flex-direction: column;
+      width: 100%;
+    }
+    .tabcontent {
+      width: 100%;
+      img {
+        max-height: 429px;
+        max-height: 429px;
+      }
+      &__descr {
+        width: 75%;
+        height: 360px;
+        top: 495px;
+        right: 10px;
+      }
+    }
+    .tabheader {
+      width: 100%;
+      padding: 5px 35px 7px 35px;
+      h3 {
+        text-align: center;
+      }
+      &__items {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: none;
+        margin-top: 7px;
+        padding: 0;
+      }
+      &__item {
+        margin: 0 10px;
+        &_active {
+          margin-top: -3px;
+        }
+      }
+    }
+}
+
+@media (max-width: 575px) {
+// old cellphones
+  .preview {
+    padding-bottom: 50px;
+    .bgc_blue {
+      height: 940px;
+    }
+  }
+  
+  .tabcontent {
+    &__descr {
+      top: 350px;
+      font-size: 17px;
+      height: 323px;
+      line-height: 22px;
+      width: 67%;
+      padding: 30px;
+      text-align: center;
+    }
+  }
+  .tabheader {
+    &__item {
+      font-weight: 500;
+      // font-size: 20px;
+      font-size: 18px;
+      &_active {
+        // font-size: 22px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: -3px;
+      }
+    }
+  }
+}

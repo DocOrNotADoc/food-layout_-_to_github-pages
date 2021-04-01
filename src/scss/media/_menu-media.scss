@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+  // tab landscape?
+    .menu {
+      &__field {
+        padding: 50px 25px;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+  // tab
+  .menu {
+    &__item {
+      margin: 17px -10px;
+    }
+  }
+    
+  }
+  // @media (max-width: 767px) {
+    @media (max-width: 575px) {
+  // cellphones
+  .menu {
+    .container {
+      justify-content: center;
+    }
+  }
+}

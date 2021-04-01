@@ -1,0 +1,66 @@
+@media (max-width: 991px) {
+// tab
+  .calculating {
+    &__subtitle {
+      font-size: 20px;
+      margin-top: 56px;
+    }
+    &__field {
+      padding: 55px 0 40px 0;
+    }
+    &__choose {
+      &-item {
+        min-width: 220px;
+        max-width: 220px;
+        min-height: 54px;
+        max-height: 54px;
+      }
+      &_medium {
+        width: 80%;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        .calculating__choose-item{
+          margin: 10px 25px;
+        }
+      }
+      &_big {
+        width: 90%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .calculating__choose-item{
+          margin: 10px 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+// cellphones
+  .calculating {
+    &__subtitle {
+      padding: 0 20px;
+    }
+    #gender:after {
+      background: url('../icons/switch-vertical.svg') center (center / cover) no-repeat;
+    }
+    &__choose {
+      flex-direction: column;
+      align-items: center;
+      &_big {
+        .calculating__choose-item {
+          margin: 5px;
+        }
+      }
+    }
+    &__divider {
+      width: 75%;
+    }
+    &__total {
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+}
