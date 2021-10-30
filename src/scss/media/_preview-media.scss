@@ -1,12 +1,11 @@
 @media (max-width: 1200px) {
-  // tab landscape?
   .bgc_blue {
     height: 730px;
   }
   .preview {
     padding-top: 0;
     &__life {
-      margin-left: 105px;
+      margin-left: 6vw;
       margin-bottom: 50px;
     }
   }
@@ -27,7 +26,6 @@
 
 }
 @media (max-width: 991px) {
-  // tab
   .bgc_blue {
     height: 1147px;
   }
@@ -83,7 +81,6 @@
 }
 
 @media (max-width: 575px) {
-// old cellphones
   .preview {
     padding-bottom: 50px;
     .bgc_blue {
@@ -105,10 +102,8 @@
   .tabheader {
     &__item {
       font-weight: 500;
-      // font-size: 20px;
       font-size: 18px;
       &_active {
-        // font-size: 22px;
         font-size: 20px;
         font-weight: 700;
         margin-top: -3px;

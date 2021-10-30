@@ -1,5 +1,4 @@
 @media (max-width: 991px) {
-  // tab
   .hamburger {
     display: block;
     position: absolute;
@@ -20,7 +19,6 @@
     &_active {
       margin-top: 3px;
       span {
-        // margin-bottom: -20px;
         &:nth-child(1) {
           width: 36px;
           transform: translateY(6px) rotate(-45deg);
@@ -37,7 +35,6 @@
   }
 }
 @media (max-width: 575px) {
-// old cellphones ???
   .hamburger {
     left: auto;
     right: 20px;

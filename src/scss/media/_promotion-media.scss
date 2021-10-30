@@ -1,5 +1,4 @@
 @media (max-width: 1200px) {
-  // tab landscape?
   .promotion {
     padding-bottom: 80px;
     .bgc_y {
@@ -35,7 +34,6 @@
   }
 }
 @media (max-width: 991px) {
-// tab
 .promotion {
   &__timer {
     width: 76%;
@@ -49,11 +47,9 @@
 }
 }
 @media (max-width: 767px) {
-// cellphones
   
 }
 @media (max-width: 575px) {
-// old cellphones
   .promotion {
     &__text {
       .title {
@@ -68,11 +64,11 @@
       margin-top: 27px;
     }
     .timer {
+      grid-template: 88px / repeat(4, 72px);
+      gap: 10px;
       &__block {
-        width: 79px;
-        height: 103px;
         span {
-          margin-top: 16px;
+          margin-top: 13px;
           margin-bottom: 0;
           font-size: 40px;
         }

@@ -1,5 +1,4 @@
 @media (max-width: 991px) {
-// tab
   .header {
     height: 93px;
     &__left-block {
@@ -49,11 +48,9 @@
   .header {
     flex-direction: column;
     height: auto;
-    // padding: 55px 0;
     &__logo {
       margin: 0 auto;
       margin-top: 5px;
-      // margin-left: -25px;
     }
     &__left-block {
       margin: 17px;
@@ -67,6 +64,5 @@
   .btn {
     margin-right: 0px;
     margin-bottom: 55px;
-    // margin: 0 auto;
   }
 }

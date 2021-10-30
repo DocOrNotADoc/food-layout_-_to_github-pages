@@ -1,5 +1,12 @@
+@media (max-width: 1200px) {
+  .order {
+    &__form {
+      padding: 0 5vw;
+    }
+  }
+}
+
 @media (max-width: 991px) {
-// tab
   .order {
     padding-bottom: 60px;
     .title {
@@ -25,5 +32,11 @@
     &__input {
       margin: 14px;
     }
+  }
+}
+
+@media (max-width: 575px) {
+  .order {
+    padding-bottom: 10px;
   }
 }

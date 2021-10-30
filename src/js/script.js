@@ -423,7 +423,7 @@ const menu = [
 
   setClock(id, deadline);
   }
-  timer('.timer', '2021-08-11');
+  timer('.timer', '2022-08-11');
 
 // modal
 function closeModal(modalSelector) {
